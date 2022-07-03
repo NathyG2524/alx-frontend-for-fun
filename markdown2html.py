@@ -5,8 +5,10 @@ import os
 
 if(len(sys.argv) < 3):
     print("Usage: ./markdown2html.py README.md README.html", file=sys.stderr)
+    exit(1)
 
 markdown = sys.argv[1]
 file_exits = os.path.exists(markdown)
 if not (file_exits):
     print(f"Missing {markdown}", file=sys.stderr)
+    exit(1)
