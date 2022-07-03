@@ -9,4 +9,4 @@ if(len(sys.argv) < 3):
 markdown = sys.argv[1]
 file_exits = os.path.exists(markdown)
 if not (file_exits):
-    print("Missing README.md")
+    print(f"Missing {markdown}")
