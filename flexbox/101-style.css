@@ -1,0 +1,51 @@
+:root{
+    
+    --small-size-height: 75px;
+    --font-size: 40px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.box{
+    display: flex;
+    aspect-ratio: 1.5;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+    background-color: green;
+    height: var(--small-size-height);
+    font-size: var(--font-size);
+    /* align-self: 0.2; */
+    justify-self: stretch;
+
+}
+.box2{
+    background-color: blue;
+    height:calc(var(--small-size-height)*1.25);
+    font-size: calc(var(--font-size)*1.1);
+    align-self: center;
+}
+.box3{
+    background-color: rgb(65, 65, 80);
+    height: calc(var(--small-size-height)*1.8);
+    font-size: calc(var(--font-size)*1.5)
+   
+}
+.box4{
+    background-color: purple;
+    height: calc(var(--small-size-height)*1.25);
+    font-size: calc(var(--font-size)*1.1);
+}
+.box5{
+    background-color: rgb(220, 150, 20);
+    height: var(--small-size-height);
+    font-size: var(--font-size);
+}
