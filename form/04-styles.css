@@ -707,3 +707,7 @@
         font-style: italic;
         font-size: var(--font-size-small);
       }
+      .form-group:focus-within{
+        background-color: var(--color-light-grey);
+        transition: .3s;
+    }
