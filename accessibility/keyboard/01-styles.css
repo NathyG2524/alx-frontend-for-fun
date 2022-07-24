@@ -688,7 +688,7 @@
     opacity: 1;
   } */
 
-  .card-work:hover .card-title a:focus,
+  /* .card-work:hover .card-title a:focus, */
   .card-work:hover .card-title a{
     opacity: 1;
     height: 100%;
@@ -711,9 +711,9 @@
       padding: 2rem 1rem 0 1rem;
     }
   
-    /* .card-work:hover .card-inner {
+    .card-work:hover .card-inner {
       background-color: transparent;
-    } */
+    }
   
     .card-work:hover .card-image {
       transform: none;
